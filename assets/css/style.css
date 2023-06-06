@@ -310,16 +310,16 @@ label {
   background-color: #186e2f;
 }
 /* css cho giỏ hàng trượt ra */
-.cart {
+body .cart {
   position: fixed;
   height: 100vh;
   z-index: 99999;
   right: 0;
   top: 0;
-  background-color: #c1cae0;
+  background-color: #2b97d7;
   padding: 12px 20px;
   overflow-y: scroll;
-  right: -120%;
+  right: -1000px;
   transition: all 0.3s ease;
 }
 .cart button {

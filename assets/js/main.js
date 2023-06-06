@@ -26,7 +26,7 @@ btn.forEach (function(button,index){
   button.addEventListener("click",function(event){{
     var btnItem = event.target
     var product = btnItem.parentElement
-    console.log (product)
+    
    var productImg = product.querySelector("img").src
    var productName = product.querySelector("h5").innerText
    var productPrice = product.querySelector("p").innerText
@@ -116,7 +116,7 @@ cartshow.addEventListener("click",function(){
   document.querySelector(".cart").style.right = "0"
 })
 cartbtn.addEventListener("click",function(){
-  document.querySelector(".cart").style.right = "-100%"
+  document.querySelector(".cart").style.right = "-1000%"
 })
 // button
 function myFunction() {
