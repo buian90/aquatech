@@ -319,7 +319,7 @@ label {
   background-color: #c1cae0;
   padding: 12px 20px;
   overflow-y: scroll;
-  right: -100%;
+  right: -120%;
   transition: all 0.3s ease;
 }
 .cart button {
@@ -433,6 +433,9 @@ table tbody tr td p {
 .text-slide2-top {
   text-align: center;
 }
+.container {
+  border-bottom: 1px solid #ddd;
+}
 @media screen and (max-width: 768px) {
   .carousel.slide-top img {
     height: 200px;
@@ -449,6 +452,5 @@ table tbody tr td p {
   }
   .cart {
     width: 400px;
-    right: 0px;
   }
 }
