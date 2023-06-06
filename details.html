@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/img/cá 11.jpg" />
+    <!-- import fontawesome -->
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.2.1-web/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.2.1-web/css/solid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.2.1-web/css/fontawesome.min.css"
+    />
+    <!-- import css -->
+    <link rel="stylesheet" href="./assets/css/details.css" />
+    <!-- import bootstrap -->
+    <link
+      rel="stylesheet"
+      href="./lib/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css"
+    />
+    <title>Techmaster Aquatic</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+        style="width: 100%; background-color: white !important"
+      >
+        <a class="navbar-brand" href="./index.html">Techmaster Aquatic</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Catagories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" href="./shoping.html">Fish</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./coral.html">Coral SPS-LPS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="collapse navbar-collapse icon-right"
+          id="navbarSupportedContent"
+          style="justify-content: end"
+        >
+          <a class="nav-link" href="#"
+            ><i class="fa-regular fa-cart-shopping" style="color: #000000"></i>
+            <span class="total-price">0</span><sup>vnđ</sup>
+          </a>
+
+          <a class="nav-link" id="userheader" href="#"
+            ><i class="fa-regular fa-user" style="color: #000000"></i
+          ></a>
+        </div>
+      </nav>
+    </div>
+    <!-- login -->
+    <div id="login-modal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Login</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="username">Username</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  placeholder="Enter username"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Enter password"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                Login
+              </button>
+              <div class="checkbox-lost">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label> <input type="checkbox" /> Remember Me </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <a href="./contact.html" class="forgot-password"
+                    >Lost Your Password?</a
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cart -->
+    <section class="cart">
+      <i id="gia-tien-ok" class="fa-solid fa-xmark" style="color: #000000"></i>
+      <h2>Cart</h2>
+      <form action="">
+        <table>
+          <thead>
+            <tr>
+              <th>Sản phẩm</th>
+              <th>Giá</th>
+              <th>SL</th>
+              <th>Chọn</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- <tr>
+              <td>
+                <img
+                  style="width: 70px"
+                  src="./assets/img/9993-26-350x435.jpg"
+                  alt=""
+                />
+                Bucep
+              </td>
+              <td>
+                <p><span>150</span></p>
+              </td>
+              <td>
+                <input
+                  style="width: 30px; outline: none"
+                  type="number"
+                  value="1"
+                  min="1"
+                />
+              </td>
+              <td style="cursor: pointer">Xóa</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  style="width: 70px"
+                  src="./assets/img/777PicsArt_11-02-11.20.46-scaled-350x435.jpg"
+                  alt=""
+                />
+                Bucep
+              </td>
+              <td>
+                <p><span>150</span></p>
+              </td>
+              <td>
+                <input
+                  style="width: 30px; outline: none"
+                  type="number"
+                  value="1"
+                  min="1"
+                />
+              </td>
+              <td style="cursor: pointer">Xóa</td>
+            </tr> -->
+          </tbody>
+        </table>
+        <div style="text-align: right" class="price-total">
+          <p style="font-weight: bold">
+            Tổng tiền : <span>0 </span><sup>vnđ</sup>
+          </p>
+          <button>
+            <a
+              href="./checkout.html"
+              class="checkout-a"
+              style="text-decoration: none; color: white"
+              >Thanh toán</a
+            >
+          </button>
+        </div>
+      </form>
+    </section>
+    <!-- details -->
+
+    <div class="wrapper">
+      <div class="container">
+        <div class="product-img">
+          <div class="zoom-container">
+            <img src="./assets/img/cá 5.jpg" height="420" width="100%" />
+            <div class="zoom-overlay"></div>
+          </div>
+        </div>
+      </div>
+      <div class="caption">
+        <h5>Copperband</h5>
+        <p>Giá Sp: <span>150 </span><sup>vnđ</sup></p>
+
+        <p>
+          Mức Độ Chăm Sóc: Khó <br />
+          Màu sắc: Xanh lam, cam, vàng <br />
+          Điều kiện nước: 22 tới 26°C (Giới hạn nhiệt độ: 30°C)<br />
+          Kích thước tối đa: 38 – 39 cm<br />
+          Khu vực phân bố: Fiji, Maldives, New Caledonia
+        </p>
+        <button id="myButton">Mua Ngay</button>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Contact</h4>
+            <p>Email: cungbuian1990@gmail.com</p>
+            <p>Phone: 0399625526</p>
+            <p>Address: Tố Hữu , Hà Nội , Việt Nam</p>
+          </div>
+          <div class="col-md-6">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="https://www.facebook.com"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.tiktok.com"><i class="fab fa-tiktok"></i></a>
+              <a href="skype:your-skype-username?call"
+                ><i class="fab fa-skype"></i
+              ></a>
+              <a href="https://www.youtube.com"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="https://www.pinterest.com"
+                ><i class="fab fa-pinterest"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script src="./lib/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./lib/jQuery/jquery.min.js"></script>
+  <!-- javascript -->
+  <script src="./assets/js/button.js"></script>
+  <script src="./assets/js/shoping.js"></script>
+  <script src="./assets/js/login.js"></script>
+  <!-- zoom -->
+  <script src="./assets/js/details.js"></script>
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+</html>

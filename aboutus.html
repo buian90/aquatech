@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- import fontawesome -->
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.2.1-web/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.2.1-web/css/solid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.2.1-web/css/fontawesome.min.css"
+    />
+    <!-- import css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- import bootstrap -->
+    <link
+      rel="stylesheet"
+      href="./lib/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css"
+    />
+    <title>Sultan Aquatic</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+        style="width: 100%; background-color: white !important"
+      >
+        <a class="navbar-brand" href="./index.html">Techmaster Aquatic</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Catagories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" href="./shoping.html">Fish</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./coral.html">Coral SPS-LPS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="collapse navbar-collapse icon-right"
+          id="navbarSupportedContent"
+          style="justify-content: end"
+        >
+          <a class="nav-link" href="#"
+            ><i class="fa-regular fa-cart-shopping" style="color: #000000"></i>
+            <span class="total-price">0</span><sup>vnđ</sup>
+          </a>
+
+          <a class="nav-link" id="userheader" href="#"
+            ><i class="fa-regular fa-user" style="color: #000000"></i
+          ></a>
+        </div>
+      </nav>
+    </div>
+   
+    <!-- login -->
+    <div id="login-modal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Login</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="username">Username</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  placeholder="Enter username"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Enter password"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                Login
+              </button>
+              <div class="checkbox-lost">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label> <input type="checkbox" /> Remember Me </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <a href="./contact.html" class="forgot-password"
+                    >Lost Your Password?</a
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- title-about us-->
+    <div class="title-aboutus">
+      <h1>About Us</h1>
+      <p>
+        <h3>Chào mừng bạn đến với cửa hàng cá cảnh của chúng tôi! </h3><br>
+
+        Chúng tôi tự hào là địa điểm đáng tin cậy để mua sắm các loại cá cảnh tuyệt đẹp và độc đáo. Với một đội ngũ đam mê và hiểu biết sâu về cá cảnh, chúng tôi cam kết cung cấp cho khách hàng những loài cá chất lượng cao và các dịch vụ hỗ trợ chuyên nghiệp.<br>
+        
+        Cửa hàng của chúng tôi mang đến một sự lựa chọn đa dạng về cá cảnh, từ những loài cá nước ngọt nhỏ nhắn như guppy, neon tetra và betta, cho đến các loại cá lớn hơn như cá vàng, cá koi và cá cảnh hồi. Chúng tôi luôn cập nhật và mang đến những loại cá mới nhất trên thị trường để đáp ứng nhu cầu của khách hàng.<br>
+        
+        Điều đặc biệt là chúng tôi đảm bảo tất cả các loại cá mà chúng tôi bán là khỏe mạnh và được chăm sóc tốt. Chúng tôi tuân thủ các tiêu chuẩn cao về chất lượng nước, dinh dưỡng và môi trường sống để đảm bảo sức khỏe và sự phát triển tối ưu của cá. Chúng tôi cũng cung cấp cho khách hàng những lời khuyên và hướng dẫn về cách chăm sóc và nuôi cá cảnh một cách hiệu quả.<br>
+        
+        Ngoài ra, chúng tôi cung cấp các phụ kiện và thiết bị cần thiết để tạo một môi trường sống lý tưởng cho cá cảnh của bạn, bao gồm hồ cá, thiết bị lọc, đèn chiếu sáng, đồ trang trí và thức ăn chất lượng. Chúng tôi luôn cập nhật và mang đến những sản phẩm mới nhất và tiên tiến nhất để bạn có thể tạo nên một hệ thống cá cảnh đẹp và ổn định.<br>
+        
+        Đội ngũ nhân viên chuyên nghiệp và tận tâm của chúng tôi sẵn sàng tư vấn và giúp đỡ bạn trong việc chọn lựa cá cảnh phù hợp với mục đích và mong muốn của bạn. Chúng tôi luôn đặt lợi ích và sự hài lòng của khách hàng lên hàng đầu và đảm bảo bạn<br><br>
+        <h4> Dưới đây là 1 số bể chúng tôi đã thi công</h4>
+      </p>
+    </div>
+    <!-- slide -->
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+      style="margin-top: 10px"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="./shoping.html">
+            <img
+              class="d-block w-100"
+              src="./assets/img/tank1.jpg"
+              alt="First slide"
+          /></a>
+        </div>
+        <div class="carousel-item">
+          <a href="./shoping.html">
+            <img
+              class="d-block w-100"
+              src="./assets/img/biljana-martinic-KjFBdofUjco-unsplash.jpg"
+              alt="Second slide"
+          /></a>
+        </div>
+        <div class="carousel-item">
+          <a href="./shoping.html">
+            <img
+              class="d-block w-100"
+              src="./assets/img/san hô 1.1.jpg"
+              alt="Third slide"
+          /></a>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Contact</h4>
+            <p>Email: cungbuian1990@gmail.com</p>
+            <p>Phone: 0399625526</p>
+            <p>Address: Tố Hữu , Hà Nội , Việt Nam</p>
+          </div>
+          <div class="col-md-6">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="https://www.facebook.com"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.tiktok.com"><i class="fab fa-tiktok"></i></a>
+              <a href="skype:your-skype-username?call"
+                ><i class="fab fa-skype"></i
+              ></a>
+              <a href="https://www.youtube.com"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="https://www.pinterest.com"
+                ><i class="fab fa-pinterest"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script src="./lib/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./lib/jQuery/jquery.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/shoping.js"></script>
+</html>

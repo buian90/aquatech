@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- import fontawesome -->
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.2.1-web/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.2.1-web/css/solid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/fontawesome-free-6.2.1-web/css/fontawesome.min.css"
+    />
+    <!-- import css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- import bootstrap -->
+    <link
+      rel="stylesheet"
+      href="./lib/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css"
+    />
+    <title>Techmaster Aquatic</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+        style="width: 100%; background-color: white !important"
+      >
+        <a class="navbar-brand" href="./index.html">Techmaster Aquatic</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Catagories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" href="./shoping.html">Fish</a>
+                </li>
+                <li><a class="dropdown-item" href="./coral.html">Coral SPS-LPS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="collapse navbar-collapse icon-right"
+          id="navbarSupportedContent"
+          style="justify-content: end"
+        >
+          <a class="nav-link" href="#"
+            ><i class="fa-regular fa-cart-shopping" style="color: #000000"></i>
+            <span class="total-price">0</span><sup>vnđ</sup>
+          </a>
+
+          <a class="nav-link" id="userheader" href="#"
+            ><i class="fa-regular fa-user" style="color: #000000"></i
+          ></a>
+        </div>
+      </nav>
+    </div>
+    <!-- login -->
+    <div id="login-modal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Login</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="username">Username</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  placeholder="Enter username"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Enter password"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                Login
+              </button>
+              <div class="checkbox-lost">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label> <input type="checkbox" /> Remember Me </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <a href="./contact.html" class="forgot-password"
+                    >Lost Your Password?</a
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- title-about us-->
+    <div class="title-aboutus">
+      <h1>Contact</h1>
+      <p>Bạn có thể liên hệ với chúng tôi :</p>
+      <p><strong>Phone :</strong> 0399625526</p>
+      <p>
+        hoặc bạn có thể liên hệ với chúng tôi trên phương tiện truyền thông xã
+        hội của chúng tôi
+      </p>
+      <p>
+        <strong>Facebook :</strong>
+        <a href="Facebook.com">Facebook.com</a>
+      </p>
+      <p><strong>Tiktok :</strong> <a href="Tiktok.com">Tiktok.com</a></p>
+      <p>
+        <strong>Instagram :</strong> <a href="instagram.com">Instagram.com</a>
+      </p>
+    </div>
+<!-- map -->
+<div class="map-container" style="margin-top: 15px;
+    border-top: 1px solid #eeeeee;">
+    
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.866040349971!2d105.79433799968754!3d20.998006282710133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad5e6a49f693%3A0x13aeab8c73d00e0c!2sTechmaster!5e0!3m2!1svi!2s!4v1684260992048!5m2!1svi!2s"
+        width="100%"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+<!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Contact</h4>
+            <p>Email: cungbuian1990@gmail.com</p>
+            <p>Phone: 0399625526</p>
+            <p>Address: Tố Hữu , Hà Nội , Việt Nam</p>
+          </div>
+          <div class="col-md-6">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="https://www.facebook.com"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.tiktok.com"><i class="fab fa-tiktok"></i></a>
+              <a href="skype:your-skype-username?call"
+                ><i class="fab fa-skype"></i
+              ></a>
+              <a href="https://www.youtube.com"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="https://www.pinterest.com"
+                ><i class="fab fa-pinterest"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script src="./lib/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./lib/jQuery/jquery.min.js"></script>
+  <!-- javascript -->
+  <script src="./assets/js/main.js"></script>
+  <!-- jv shoping -->
+  <script src="./assets/js/shoping.js"></script>
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+</html>
