@@ -114,7 +114,7 @@
 
 .product .thumbnail {
   margin-bottom: 20px;
-
+  border: 1px solid green;
   border-radius: 4px;
   text-align: center;
 }
@@ -182,9 +182,13 @@ body {
 }
 /* title product */
 .title {
+  color: #00aff0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.title h2 {
+  font-size: 3rem;
 }
 .title h1 {
   font-size: 70px;
@@ -197,7 +201,7 @@ body {
 
 .title-aboutus h1 {
   font-size: 24px;
-  color: #070707;
+  color: #00aff0;
   margin-bottom: 10px;
   font-size: 70px;
 }
@@ -354,6 +358,16 @@ body .cart {
   align-items: center;
   height: 10%;
   margin-bottom: 5px;
+}
+/* youtube */
+.container-youtube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* logo */
+.container a {
+  color: #00aff0;
 }
 /*  button */
 #snackbar {
