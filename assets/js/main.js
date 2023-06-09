@@ -44,7 +44,7 @@ function addcart (productImg, productName, productPrice)  {
     }
     
   }
-  var trcontent = '<tr><td><img style="width: 70px" src="'+productImg+'" alt=""/><span class="tittle">'+productName+'</span></td><td><p><span class="prices">'+productPrice+'</span></p></td> <td><input style="width: 30px; outline: none"type="number" value="1"min="1"/></td><td style="cursor: pointer"><span class="cart-delete">Xóa</span></td></tr>'
+  var trcontent = '<tr><td><img style="width: 70px" src="'+productImg+'" alt=""/><span class="tittle">'+productName+'</span></td><td><p><span class="prices">'+productPrice+'</span></p></td> <td><input style="width: 45px; outline: none"type="number" value="1"min="1"/></td><td style="cursor: pointer"><span class="cart-delete">Xóa</span></td></tr>'
   addtr.innerHTML = trcontent
   var cartTable = document.querySelector("tbody")
   // console.log (cartTable)
