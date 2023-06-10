@@ -449,7 +449,7 @@ table tbody tr td p {
 .text-slide2-top {
   text-align: center;
 }
-.container {
+.navbar {
   border-bottom: 1px solid #ddd;
 }
 @media screen and (max-width: 768px) {
